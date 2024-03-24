@@ -1,0 +1,4 @@
+Use the following command to print bash files in the "job" folder that contain commands for running the simulation experiment
+
+perl write_job.pl
+

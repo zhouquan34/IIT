@@ -1,0 +1,7 @@
+#! /bin/bash
+
+LIB="/home/quan/local/lib"
+cd src
+files="bvsr.o args.o chol.o generic.o global.o lalg.o mcmc.o model.o output.o prec.o readin.o xy.o"
+g++ -o ../iit-linux $files -lm $LIB/libgsl.a $LIB/libgslcblas.a
+

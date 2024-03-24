@@ -1,0 +1,4 @@
+To compile the code, you need to install GSL first and specify its path in the Makefile. 
+
+If you use a linux machine, you may directly use the compiled executable iit-linux. Rename it by 'mv iit-linux iit'. 
+
